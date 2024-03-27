@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CollegeAdmissionApplication",
+            "request": "launch",
+            "mainClass": "com.pramoth.college_admission_portal.CollegeAdmissionApplication",
+            "projectName": "ecom-app-v3"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EcomApplication<ecom-app-v3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.iamneo.ecom.EcomApplication",
+            "projectName": "ecom-app-v3",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
